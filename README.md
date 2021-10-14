@@ -1,8 +1,6 @@
 <div align="justify">
+	
 	<h1 align="center"> Reminder Software Design Information</h1>
-	<br>
-	<h3>Class Name: User</h3>
-	<p>Design: Created the 'User' class to implement the relationship between the User and the Reminder List.</p>
 	<br>
 	<h3>Class Name: User</h3>
 	<p>Design: Created the 'User' class to implement the relationship between the User and the Reminder List.</p>
@@ -19,7 +17,7 @@
 		<li>editReminder(): allows users to edit an existing reminder</li>
 		<li>setReminderAlert(): this method allows user to set reminder with day and time alert</li>
 		<li>repeatReminder(): if user sets alert for their reminder, this method will allow option to repeat the behavior</li>
-		<li>specifyReminder(): This method allows user to specify a reminder by typing its name. In this case, the application will search the database for reminders with 		   similar names and ask the user if that is the item they intended to add.</li>
+		<li>specifyReminder(): This method allows user to specify a reminder by typing its name. In this case, the application will search the database for reminders with similar names and ask the user if that is the item they intended to add.</li>
 		<li>checkOffReminder(): checks off selected reminder from the list</li>
 		<li>checkOffAll(): checks off all reminders from the list</li>
 		<li>clearAllCheckOff(): clears all the check-off marks in the reminder list at once</li>
