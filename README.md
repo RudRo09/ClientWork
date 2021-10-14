@@ -1,7 +1,13 @@
-<p align="center"><strong>North South University</strong></p>
-<p align="center">Department of Electrical &amp; Computer Engineering</p>
-<p align="center"><strong>Project Report</strong></p>
-<p align="center"><strong>Group No</strong>: 01</p>
-<p align="center"><strong>Summer 2021</strong></p>
-<p align="center"><strong>Project Name</strong>: E-commerce Website on Tech Gadgets</p>
-
+<div align="justify">
+	
+	<h1> Reminder Software Design Information</h1>
+	<br>
+	<h3>Class Name: User</h3>
+	<p><strong>Design: </strong>Created the 'User' class to implement the relationship between the User and the Reminder List.</p>
+	<br>
+	<p><strong>Attributes: </strong><ol>
+		<li><strong>userID: </strong>int type variable to keep track of multiple users in the database </li>
+		<li><strong>userName: </strong>string type variable, stores the name of the user</li>
+		<li><strong>userEmail: </strong>string type variable, stores the email of the user</li>
+	</ol></p>
+	<br>
