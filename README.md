@@ -1,5 +1,5 @@
 <div align="justify">
-<p><strong>Introduction</strong></p>
+<h3>Introduction</strong></h3>
 <p>Physical stores have a lot of restrictions. Fixed business hours, stock limitation, limited clients, excessive bills are just a few of them. On top of that, in special times like this, when the whole world is quarantined, the physical shop owners are suffering the most. Having a place where store owners can continue their business uninterrupted and more efficiently is now a hot demand.</p>
 <p>This project aims to create an E-commerce website on tech and gadgets to give the tech shop owners a secure platform to sell their products, even in the absence of a physical store. This website will provide better deployment of the shop's products, accessibility, global customers, effortless track of buyer's preferences, and 24x7 selling opportunity. So that all the business problems are solved with just a click.</p>
 <p><strong>Features</strong></p>
