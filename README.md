@@ -16,10 +16,26 @@
 		<li><strong>editReminder(): </strong>allows users to edit an existing reminder</li>
 		<li><strong>setReminderAlert(): </strong>this method allows user to set reminder with day and time alert</li>
 		<li><strong>repeatReminder(): </strong>if user sets alert for their reminder, this method will allow option to repeat the behavior</li>
-		<li><strong>specifyReminder(): </strong>This method allows user to specify a reminder by typing its name. In this case, the application will search the database for reminders with similar names and ask the user if that is the item they intended to add.</li>
+		<li><strong>specifyReminder(): </strong>this method allows user to specify a reminder by typing its name. In this case, the application will search the database for reminders with similar names and ask the user if that is the item they intended to add</li>
 		<li><strong>checkOffReminder(): </strong>checks off selected reminder from the list</li>
 		<li><strong>checkOffAll(): </strong>checks off all reminders from the list</li>
-		<li><strong>clearAllCheckOff(): </strong>clears all the check-off marks in the reminder list at once</li>
+		<li><strong>clearAllCheckOff(): </strong>clears all the check-off marks in the reminder list at once.</li>
 	</ol></p>
+	<br>
+	<h3>Class Name: ReminderList</h3>
+	<p><strong>Design: </strong>This class will store all the reminders in the reminder list selected by the user.
+	<br>
+	<p><strong>Attributes: </strong><ol>
+		<li><strong>reminderListType: </strong>a string type variable, which indicates the type of the list.(e.g. Weekly, Monthly, etc.)</li>
+		<li><strong>reminderListName: </strong>a string type variable, which stores the name of the reminder list</li>
+	</ol></p>
+	<br>
+	<p><strong>Operations: </strong></p><ol>
+		<li><strong>createNewReminderList(): </strong>allows user to create new reminder list</li>
+		<li><strong>editReminderList(): </strong>allows user to modify an existing reminder list</li>
+		<li><strong>deleteReminderList(): </strong>allows user to delete any reminder list</li>
+		<li><strong>saveChanges(): </strong>method that saves all the changes made in real time</li>
+		<li><strong>saveCheckOffs(): </strong>method that saves all the reminders after checking them off.</li>
+	</ol>
 <p>&nbsp;</p>
 </div>
