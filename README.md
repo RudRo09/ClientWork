@@ -37,7 +37,7 @@
 		<li><strong>saveChanges(): </strong>method that saves all the changes made in real time</li>
 		<li><strong>saveCheckOffs(): </strong>method that saves all the reminders after checking them off.</li>
 	</ol>
-<br>
+	<br>
 	<h3>Class Name: Database</h3>
 	<p><strong>Design: </strong>Implements the database required for the software.</p>
 	<br>
@@ -50,10 +50,32 @@
 	<br>
 	<p><strong>Operations: </strong></p><ol>
 		<li><strong>searchDB(): </strong>this method is run when the user specifies a reminder by typing its name. This method searches the database for reminder with 			similar names and asks the user if this is the reminder they intended to add</li>
-		<li><strong>select_createNewReminder(): </strong>this method is run when the <strong>searchDB()</strong> method could not find any match in the database. It allows user to select 		  a reminder type for the reminder, or add a new one, and then saves the new reminder together with its type in the database</li>
+		<li><strong>select_createNewReminder(): </strong>this method is run when the <strong>searchDB()</strong> method could not find any match in the database. It 			allows user to select a reminder type for the reminder, or add a new one, and then saves the new reminder together with its type in the database</li>
 		<li><strong>saveNewReminder(): </strong>method that saves new reminders in the reminder list.</li>
 		<li><strong>saveMultipleListAtATime(): </strong>method that enables the system to save multiple reminder list at a time.</li>
 		<li><strong>groupByReminderType(): </strong>this method groups the reminders by their type and saves them.</li>
 	</ol>
+	<br>
+	<h3>Class Name: HierarchicalList</h3>
+	<p><strong>Design: </strong>Provides only 2 attributes and 2 methods.</p>
+	<br>
+	<p><strong>Attributes: </strong></p><ol>
+		<li><strong>reminderTypeLevel: </strong>string type variable, indicates first level of the hierarchical list, which is reminder type </li>
+		<li><strong>reminderNameLevel: </strong>string type variable, stores the second level, which is the name of the reminder.</li>
+	</ol>
+	<p><strong>Operations: </strong></p>
+	<ol>
+		<li><strong>reminderType(): </strong>method that returns all the reminders by its type in level 1</li>
+		<li><strong>reminderName(): </strong>this method returns all the reminders by its name in level 2.</li>
+	</ol>
+
+<h3>Relationship between the Classes: </h3>
+<ul>
+	<li>User can have one or many ReminderList</li>
+	<li>ReminderList can have one or many reminder</li>
+	<li></li>
+</ul>
+<br>
+<h4>Note: The UI must be intuitive and responsive. Though it is not considered as it doesn't affect the design directly.</h4>
 <p>&nbsp;</p>
 </div>
