@@ -73,7 +73,6 @@
 <ul>
 	<li>User can have one or many ReminderList</li>
 	<li>ReminderList can have one or many reminder</li>
-	<li></li>
 </ul>
 <br>
 <h4>Note: The UI must be intuitive and responsive. Though it is not considered as it doesn't affect the design directly.</h4>
