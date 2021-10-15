@@ -10,7 +10,7 @@
 		<li><strong>userEmail: </strong>string type variable, stores the email of the user</li>
 	</ol></p>
 	<br>
-	<p><strong></strong>Operations: <ol>
+	<p><strong>Operations: </strong><ol>
 		<li><strong>addReminder(): </strong>adds reminder to users reminder list</li>
 		<li><strong>deleteReminder(): </strong>allows user to delete reminder from their list</li>
 		<li><strong>editReminder(): </strong>allows users to edit an existing reminder</li>
