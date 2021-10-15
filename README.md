@@ -23,7 +23,7 @@
 	</ol></p>
 	<br>
 	<h3>Class Name: ReminderList</h3>
-	<p><strong>Design: </strong>This class will store all the reminders in the reminder list selected by the user.</p>
+	<p><strong>Design: </strong>This class will have all the reminders in the reminder list selected by the user.</p>
 	<br>
 	<p><strong>Attributes: </strong><ol>
 		<li><strong>reminderListType: </strong>a string type variable, which indicates the type of the list. (e.g. Weekly, Monthly, etc.)</li>
@@ -50,7 +50,7 @@
 	<br>
 	<p><strong>Operations: </strong></p><ol>
 		<li><strong>searchDB(): </strong>this method is run when the user specifies a reminder by typing its name. This method searches the database for reminder with 			similar names and asks the user if this is the reminder they intended to add</li>
-		<li><strong>select_createNewReminder(): </strong>this method is run when the searchDB() method could not find any match in the database. It allows user to select 		  a reminder type for the reminder, or add a new one, and then saves the new reminder together with its type in the database</li>
+		<li><strong>select_createNewReminder(): </strong>this method is run when the <strong>searchDB()</strong> method could not find any match in the database. It allows user to select 		  a reminder type for the reminder, or add a new one, and then saves the new reminder together with its type in the database</li>
 		<li><strong>saveNewReminder(): </strong>method that saves new reminders in the reminder list.</li>
 		<li><strong>saveMultipleListAtATime(): </strong>method that enables the system to save multiple reminder list at a time.</li>
 		<li><strong>groupByReminderType(): </strong>this method groups the reminders by their type and saves them.</li>
